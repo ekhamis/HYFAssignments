@@ -36,3 +36,4 @@ function repeatStringNumTimes3(str, num) {
 }
 var repeat = repeatStringNumTimes3('do loop. ', 5);
 console.log(repeat);
+    
