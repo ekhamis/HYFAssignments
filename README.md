@@ -1,2 +1,2 @@
 # HYFAssignments
-JavaScript 1 Assignments' Ptroposed Solutions
+JavaScript 1 Assignments' Proposed Solutions
