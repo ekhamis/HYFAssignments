@@ -9,16 +9,12 @@ function threeFive(startIndex, stopIndex, threeCallback, fiveCallback) {
     }
     console.log(arr);
 
-    for (var val in arr) {
+    for (var val of arr) {
+        if (val % 3 === 0) {
+            threeCallback();
+        }
         if (val % 5 === 0) {
             fiveCallback();
-        } else if (val % 3 === 0) {
-            threeCallback();
-        } else if (val % 3 === 0 && val % 5 === 0) {
-            threeCallback();
-            fiveCallback();
-        } else {
-            continue;
         }
     }
 }
