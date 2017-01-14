@@ -1,2 +1,3 @@
 # HYFAssignments
-JavaScript 1 Assignments' Proposed Solutions
+JavaScript Assignments' Proposed Solutions
+Current posts are upto JS2Week1
